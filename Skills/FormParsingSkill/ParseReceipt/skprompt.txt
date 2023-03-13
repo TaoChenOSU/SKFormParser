@@ -1,0 +1,29 @@
+A TEXT REPRESENTATION OF A RECEIPT WILL BE GIVEN. PLEASE PARSE THE RECEIPT INTO THE FOLLOWING JSON FORMAT:
+
+{
+	"DATE": ...,
+	"LOCATION": ...,
+	"COMPANY": ...,
+	"PHONE": ...,
+	"ITEMS": [
+		{
+			"NAME": ...,
+			"PRICE": ...,
+		},
+		{
+			"NAME": ...,
+			"PRICE": ...,
+		},
+		...
+	],
+	"TAXES": ...,
+	"TOTAL": ...,
+}
+
+DO NOT MAKE UP DATA. USE 'N/A' IF YOU ARE UNCERTAIN.
+
+HERE IS THE RECEIPT IN ITS TEXT REPRESENTATION:
+
+{{$input}}
+
+PARSE RESULT:
