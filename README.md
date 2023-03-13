@@ -8,7 +8,7 @@ The app uses [Semantic Kernel (SK)](https://github.com/microsoft/semantic-kernel
 ## How to run
 ```
 dotnet build
-dotnet run --settings [path to a json file that contains endpoints and keys to the models]
+dotnet run receipt --settings [path to a json file that contains endpoints and keys to the models] --local-image [path to an image file on your machine]
 ```
 
 ## Settings file format
