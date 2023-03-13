@@ -44,6 +44,7 @@ dotnet run --settings [path to a json file that contains endpoints and keys to t
 ```
 
 ## Sample return results
+![image](docs/images/receipt-sample.png)
 ```
 {
   "DATE": "02/27/23",
