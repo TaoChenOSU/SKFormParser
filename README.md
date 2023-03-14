@@ -62,6 +62,31 @@ dotnet run receipt --settings [path to a json file that contains endpoints and k
   "TOTAL": "$4.00"
 }
 ```
+![image](docs/images/receipt-sample2.jpg)
+```
+{
+        "DATE": "11/09/13",
+        "LOCATION": "ORLANDO, FL 32828",
+        "COMPANY": "BEST BUY #571",
+        "PHONE": "( 407 )482-8099",
+        "ITEMS": [
+                {
+                        "NAME": "PS4-ASSASSINS CREED IV: BLACK",
+                        "PRICE": "59.99"
+                },
+                {
+                        "NAME": "PS4-KNACK",
+                        "PRICE": "29.99"
+                },
+                {
+                        "NAME": "PS4-KILLZONE 4",
+                        "PRICE": "29.99"
+                }
+        ],
+        "TAXES": "7.80",
+        "TOTAL": "127.77"
+}
+```
 
 ## Note
 The parsed results are not guaranteed to be correct all the time. Further works need to be done to detect anonmaly and improve accuracy.
